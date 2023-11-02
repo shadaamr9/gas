@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@300;400;700&display=swap');
+*{
+  margin: 0;
+   padding: 0;
+   box-sizing: 0;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+   align-content: center;
+   text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    height: 8vh;
+}
+nav.logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+nav.logo.i{
+    color: #6e0aef;
+    padding-left: 0 5rem;
+}
+h3{
+    font-family: 'lalezar',cursive;
+   
+}
+
+nav .nav-items{
+    display: flex;
+    list-style-type:none;
+}
+nav .nav-items .nav-item
+{
+    padding: 0 1rem;
+    
+}
+nav .nav-link{
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 1.4rem;
+}
+nav .nav-link:hover{
+    color: #6e0aef;
+   
+}
+
+/*hero section*/
+.hero{
+    background-color: #f8f7fc;
+    margin-right: -163px;
+    padding-bottom: 100px;
+   
+}
+.hero-section{
+    max-width: 1366px;
+    height: auto;
+    display: flex;
+    text-align: justify;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 19rem;
+    padding-top: 50px;
+    
+}
+
+.hero-section .content{
+    flex-direction: column;
+    display: flex;
+ 
+    display: inline-block;
+    text-align: justify;
+  
+}
+.hero-section h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+}
+.hero-section .content h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column; 
+}
+  .btn{
+    width: 10rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #6e0aef;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.btn:hover{
+    background-color: #7d25f0;
+    cursor: pointer;
+}
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    margin-right:500px ;
+    margin-top: -90px;
+}
+/*باقي صفحة اشهر بنزينات*/
+.stations{
+    padding-top: 5rem;
+    align-content: center;
+}
+.stations .gas-stations
+{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+  align-content: center;
+}
+.gas-stations h4
+{
+color: #6e0aef;
+margin-bottom: 2rem;
+text-align: center;
+font-size: 1.6rem;
+}
+.gas-stations .stat
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+
+}
+.stat .photo
+{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo img
+{
+    margin-bottom: 1rem;
+    height: 300px;
+    width: 300px;
+}
+.photo img:hover{
+    scale: 1.1;
+}
+.photo h3{
+    font-size: 1.6rem;
+    
+}
+.gas-stations .btn
+{
+    
+    margin-bottom: 1rem;
+   align-self: center;
+}
+
+/*instant appاعرف اكتر */
+.instant-app{
+    max-width: 1366px;
+    height: auto;
+    display: flex;
+    text-align: justify;
+    align-content: center;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 19rem;
+    padding-top: 50px;  
+    margin-right: 80px;
+  
+}
+.app{
+    background-color: #f8f7fc;
+}
+.instant-app h2{
+    text-align: center;
+    font-family: 'lalezar',cursive;
+    color:#8000ff;
+}
+.instant-app embed{
+    width:1200px;
+    height: 700px;
+    margin-right: -177px;
+   align-items: center;
+}
+/*experiece-builder*/
+.experiece-builder{
+    max-width: 1366px;
+    height: auto;
+    display: flex;
+    text-align: justify;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 19rem;
+    padding-top: 50px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.download{  background-color: #f8f7fc;}
+.experiece-builder .builder
+{
+
+    flex-direction: column;
+    display: flex;
+    display: inline-block;
+    text-align: justify;
+    justify-content: center;
+    text-align:center;
+    font-size: larger;
+ 
+}
+
+
+/*صورة زرار*/
+.down{
+    padding-top: 55px;
+    margin-right: 910px;
+    margin-top: -30px;
+    margin-right: -177px;
+    align-items: center;
+}
+
+.webappbuilder
+{
+    flex-direction: column;
+    display: flex;
+    display: inline-block;
+    text-align: justify;
+    justify-content: center;
+    text-align:center;
+    font-size: larger;
+}
+.webappbuilder embed
+{
+    width:1200px;
+    height: 700px;
+    max-width: 1366px;
+    margin-right: -177px;
+    align-items: center;
+}
+.text{
+    max-width: 1366px;
+    height: auto;
+    display: flex;
+    text-align: justify;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 19rem;
+    padding-top: 50px;
+    margin-right: 100px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.text .txt{
+    background-color: #f8f7fc;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*features sections */
+.feature-section{
+    padding: 2rem 0;
+    background-color: #f8f7fc;
+}
+section.features .feature-section
+{
+max-width: 1366px;
+margin: 0 auto;
+padding: 0 5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.feature-section h4 
+{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.feature-section .qualities
+{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-section .qualities .quality
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background-color: #ffffff;
+padding: 2.5rem;
+max-width: 17rem;
+border-radius: 1rem;
+
+}
+ .qualities .quality i{
+    font-size: 2rem;
+   color: #6e0aef;
+   margin-bottom: 1rem;
+}
+
+.feature-section .qualities .quality:hover{
+    border: 2px solid #6e0aef;
+}
+.qualities .quality h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.qualities .quality p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4e547e;
+}
+/*opinion*/
+.opinion{
+    max-width: 1366px;
+    height: auto;
+    display: flex;
+    text-align: justify;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 19rem;
+    padding-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.opinion .opi{
+    flex-direction: column;
+    display: flex;
+    display: inline-block;
+    text-align: justify;
+    justify-content: center;
+    text-align:center;
+    font-size: larger;
+}
+.opinion .opi h2{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #6e0aef;
+    font-family: 'lalezar',cursive;
+
+}
+
+.opinion .opi embed{
+    width: 1200px;
+    height: 900px;
+    max-width: 1366px;
+    margin-right: -177px;
+    align-items: center;
+}
+.opinion .opi .emb {
+    align-content: center;
+    max-width: 1366px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-right: -177px;
+    align-items: center;
+ 
+}
+/*شكاااوي*/
+.complaints{
+    max-width: 1366px;
+    height: auto;
+    display: flex;
+    text-align: justify;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 19rem;
+    padding-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-right: -177px;
+    align-items: center;
+
+}
+.complaints .com{
+     flex-direction: column;
+    display: flex;
+    display: inline-block;
+    text-align: justify;
+    justify-content: center;
+    text-align:center;
+    font-size: larger;
+   
+}
+
+    .complaints .com h2
+    {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: #6e0aef;
+        font-family: 'lalezar',cursive;
+    
+    }
+
+    /*fotter*/
+    footer{
+        background-color: #f8f7fc;
+        height: 15vh;
+        margin-top: 5rem;
+        padding: 2rem 0;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1366px;
+        margin: 0 auto;
+        padding: 0 5rem;
+    }
+
+    .footer-section p
+    {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-section .socials
+    {
+    margin-bottom: 1rem;
+    }
+    .footer-section .socials i
+    {
+        padding: 0 0.5rem;
+        font-size: 1.6rem;
+    }
+    .footer-section .socials i:hover
+    {
+        color: #6e0aef;
+        cursor: pointer;
+    }
+
+/*تسجيل الدخول */
+.row g-3{
+    direction: rtl;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.selected :hover{
+    border: #6e0aef 4px solid;
+}
